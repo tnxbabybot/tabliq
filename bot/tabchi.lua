@@ -1,6 +1,6 @@
 tabchi = dofile('./bot/funcation.lua')
 --------------------------------
-tabchi_id = 123456789
+tabchi_id = 572716174
 ---------------------------------
 json = dofile('./libs/JSON.lua')
 ---------------------------------
@@ -14,7 +14,7 @@ https = require "ssl.https"
 -----~~~~~~~~~~~~~~~~
 d = dofile('./libs/redis.lua')
 -------------------------------
-config_sudo = {987654321}
+config_sudo = {512679283}
 function dl_cb(arg, data)
 end
 function is_sudo(msg)
@@ -380,7 +380,7 @@ tabchi.sendText(msg.chat_id_,msg.id_,1,'*♻️ریلود با موفقیت ان
 end
 if text and text:match('^leave(-100)(%d+)$') then
 local leave = text:match('leave(-100)(%d+)$') 
-       tabchi.sendText(msg.chat_id_,msg.id_,1,'騎필 훌 新繃綽 할 落 '..leave..' 曠緊 冬.',1,'md')
+       tabchi.sendText(msg.chat_id_,msg.id_,1,'騎필 훌 新繃綽 할 落 '..leave..' 曠緊 冬.',1,'md')
      tabchi.changeChatMemberStatus(leave, tabchi_id, "Left")
   end
 
